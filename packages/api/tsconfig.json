@@ -1,11 +1,7 @@
 {
     "extends": "../../tsconfig.json",
-    "ts-node": {
-        "compilerOptions": {
-            "module": "commonjs"
-        }
-    },
     "compilerOptions": {
+        "module": "commonjs",
         "outDir": "./build",
         "noEmit": false
     },
